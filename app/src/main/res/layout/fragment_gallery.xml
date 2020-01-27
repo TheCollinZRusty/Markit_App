@@ -4,8 +4,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-
-
     <TextView
         android:id="@+id/text_gallery"
         android:layout_width="match_parent"
@@ -19,10 +17,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/button_id"
         android:layout_height="wrap_content"
-        android:src="@draw.jpg" />
+        android:layout_width="wrap_content"
+        android:text="@string/button_Clon" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

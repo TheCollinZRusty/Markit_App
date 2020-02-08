@@ -28,13 +28,12 @@
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="@string/google_maps_key" />
+            android:value="AIzaSyCQM1-jjT6ihw9XgWfYLbcbGjnIFpg12qU" />
 
         <activity
             android:name=".markit.ui.ClonMarket.activities.Location"
             android:label="@string/title_activity_location"></activity>
         <activity android:name=".markit.ui.ClonMarket.activities.UserMainActivity" />
-        <activity android:name=".markit.ui.ClonMarket.activities.AdminMainActivity" />
         <activity android:name=".markit.ui.ClonMarket.activities.LoginActivity" />
         <activity android:name=".markit.ui.ClonMarket.activities.InitialScreen" />
         <activity android:name=".markit.ui.ClonMarket.activities.AdminTraderView" />

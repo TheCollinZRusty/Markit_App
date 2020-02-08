@@ -23,11 +23,6 @@ class ClonTraderAdd : Fragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         app = activity?.application as ClonTraderApp
-
-//        JumploginButton.setOnClickListener() {
-//            val intent = Intent(this, ClonTraderFragment::class.java)
-//            startActivity(intent)
-//        }
     }
 
     override fun onCreateView(

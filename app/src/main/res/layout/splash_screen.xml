@@ -12,6 +12,7 @@
     <ImageView
         android:id="@+id/splash_logo"
         android:layout_width="150dp"
+        android:src="@drawable/markitlogo"
         android:layout_height="150dp"/>
 
 </LinearLayout>

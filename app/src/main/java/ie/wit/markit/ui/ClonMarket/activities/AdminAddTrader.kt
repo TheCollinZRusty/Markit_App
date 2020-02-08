@@ -8,7 +8,9 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import ie.wit.R
 import ie.wit.markit.ui.ClonMarket.Main.ClonTraderApp
+import ie.wit.markit.ui.ClonMarket.Models.ClonTraderModel
 import ie.wit.markit.ui.ClonMarket.adapters.ClonTraderAdapter
+import kotlinx.android.synthetic.main.fragment_clon_add_trader_ddmin.*
 import kotlinx.android.synthetic.main.fragment_clon_trader.*
 
 class AdminAddTrader : AppCompatActivity() {
@@ -16,15 +18,22 @@ class AdminAddTrader : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.admin_clon_trader_view)
+        setContentView(R.layout.fragment_clon_add_trader)
         app = this.application as ClonTraderApp
 
+        donateButton.setOnClickListener {
+            val Surname = Surname.text.toString()
+            val Forename = Forename.text.toString()
+            val Email = Email.text.toString()
+            val PhoneNumber = Password.text.toString().toInt()
+            val producetype = if(produceType.checkedRadioButtonId == R.id.Direct) "Vegetables" else "Meats"
+            app.clonTraderStore.create(ClonTraderModel(producetype = producetype,forename = Forename,surname = Surname,email = Email,number = PhoneNumber))
+        }
     }
-
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         // Inflate the menu; this adds items to the action bar if it is present.
-        menuInflater.inflate(R.menu.user_bar, menu)
+        menuInflater.inflate(R.menu.menu_admin, menu)
         return true
     }
 

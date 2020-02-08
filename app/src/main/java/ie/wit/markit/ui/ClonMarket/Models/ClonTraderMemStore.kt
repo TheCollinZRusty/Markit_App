@@ -21,9 +21,9 @@ class ClonTraderMemStore : ClonTraderStore {
         return foundDonation
     }
 
-    override fun create(donation: ClonTraderModel) {
-        donation.id = getId()
-        donations.add(donation)
+    override fun create(trader: ClonTraderModel) {
+        trader.id = getId()
+        donations.add(trader)
         logAll()
     }
 

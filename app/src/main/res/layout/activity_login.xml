@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
+    android:background="@drawable/backgroundgradient"
     android:orientation="vertical"
     android:gravity="center"
     android:padding="20dp">
@@ -12,7 +12,7 @@
     <ImageView
         android:id="@+id/splash_logo"
         android:layout_width="150dp"
-        android:src="@drawable/markitlogo"
+        app:srcCompat="@drawable/markitlogo"
         android:layout_height="150dp"/>
 
         <EditText

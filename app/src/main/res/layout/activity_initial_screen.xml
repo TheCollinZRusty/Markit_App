@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
+    android:background="@drawable/backgroundgradient"
     android:orientation="vertical"
     android:gravity="center"
     android:padding="20dp">
@@ -40,62 +40,39 @@
     <ImageView
         android:id="@+id/splash_logo"
         android:layout_width="150dp"
-        android:src="@drawable/markitlogo"
+        app:srcCompat="@drawable/markitlogo"
         android:layout_height="150dp"/>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <CheckBox
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Remember Me"
-            android:layout_marginRight="10dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginBottom="10dp"
-            android:layout_marginTop="0dp"
-            android:textColor="@color/white"
-            android:buttonTint="@color/white"
-            android:checked="true"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Forget Password"
-            android:layout_marginRight="10dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginBottom="10dp"
-            android:layout_marginTop="0dp"
-            android:textColor="@color/white"
-            android:drawablePadding="6dp"
-            android:padding="4dp"/>
-
-    </LinearLayout>
+        android:orientation="horizontal"/>
 
     <Button
         android:id="@+id/JumploginButton"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Enter"
-        android:shadowColor="@android:color/transparent"
-        android:padding="15dp"
-        android:layout_marginRight="10dp"
         android:layout_marginLeft="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="10dp"
         android:layout_marginBottom="10dp"
-        android:layout_marginTop="0dp"/>
+        android:padding="15dp"
+        android:shadowColor="@android:color/transparent"
+        android:text="Enter" />
 
     <Button
         android:id="@+id/JumpSignUpButton"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Sign in as Admin?"
-        android:shadowColor="@android:color/transparent"
-        android:padding="15dp"
-        android:layout_marginRight="10dp"
         android:layout_marginLeft="10dp"
-        android:layout_marginBottom="10dp"
         android:layout_marginTop="0dp"
-        android:textColor="@color/white"/>
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="15dp"
+        android:shadowColor="@android:color/transparent"
+        android:text="Sign in as Admin?"
+        android:textColor="@color/white" />
 
 </LinearLayout>

@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import ie.wit.R
+import ie.wit.markit.ui.ClonMarket.Admin.activities.AdminTrader
 import kotlinx.android.synthetic.main.activity_login.*
 
 
@@ -18,7 +19,7 @@ class LoginActivity : AppCompatActivity() {
 
 
         loginButton.setOnClickListener() {
-            val intent = Intent(this, AdminTraderView::class.java)
+            val intent = Intent(this, AdminTrader::class.java)
             startActivity(intent)
         }
         SignUpButton.setOnClickListener() {

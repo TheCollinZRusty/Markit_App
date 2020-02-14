@@ -7,17 +7,19 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import ie.wit.R
-import ie.wit.markit.ui.ClonMarket.Main.ClonTraderApp
-import ie.wit.markit.ui.ClonMarket.adapters.ClonTraderAdapter
-import kotlinx.android.synthetic.main.fragment_clon_trader.view.*
+import ie.wit.markit.ui.ClonMarket.Admin.activities.TraderAdapter
+import ie.wit.markit.ui.ClonMarket.Admin.activities.TraderViewAdapter
+import ie.wit.markit.ui.ClonMarket.Admin.main.MainApp
+import kotlinx.android.synthetic.main.admin_clon_trader_view.view.*
+
 
 class ClonTraderFragment : Fragment() {
 
-    lateinit var app: ClonTraderApp
+    lateinit var app: MainApp
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        app = activity?.application as ClonTraderApp
+        app = activity?.application as MainApp
     }
 
     override fun onCreateView(
@@ -28,8 +30,9 @@ class ClonTraderFragment : Fragment() {
         var root = inflater.inflate(R.layout.fragment_clon_trader, container, false)
 
         root.recyclerView.setLayoutManager(LinearLayoutManager(activity))
-        root.recyclerView.adapter = ClonTraderAdapter(app.clonTraderStore.findAll())
+        root.recyclerView.adapter = TraderViewAdapter(app.traders.findAll())
 
         return root
     }
+
 }

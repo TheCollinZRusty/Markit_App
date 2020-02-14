@@ -11,15 +11,16 @@ import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
 import ie.wit.R
-import ie.wit.markit.ui.ClonMarket.Main.ClonTraderApp
+//import ie.wit.markit.ui.ClonMarket.Main.ClonTraderApp
 
 
 class ClonLocation : Fragment() {
-    lateinit var app: ClonTraderApp
+//    lateinit var app: ClonTraderApp
     private var mMap: GoogleMap? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        app = activity?.application as ClonTraderApp
+//        app = activity?.application as ClonTraderApp
+
     }
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,

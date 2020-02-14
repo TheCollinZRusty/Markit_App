@@ -6,15 +6,15 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import ie.wit.R
-import ie.wit.markit.ui.ClonMarket.Main.ClonTraderApp
+//import ie.wit.markit.ui.ClonMarket.Main.MainApp
 
 class ClonLocation : Fragment() {
 
-    lateinit var app: ClonTraderApp
+//    lateinit var app: MainApp
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        app = activity?.application as ClonTraderApp
+//        app = activity?.application as MainApp
     }
 
     override fun onCreateView(

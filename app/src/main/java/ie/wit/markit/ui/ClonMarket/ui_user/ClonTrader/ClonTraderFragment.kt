@@ -10,7 +10,7 @@ import ie.wit.R
 import ie.wit.markit.ui.ClonMarket.Admin.activities.TraderAdapter
 import ie.wit.markit.ui.ClonMarket.Admin.activities.TraderViewAdapter
 import ie.wit.markit.ui.ClonMarket.Admin.main.MainApp
-import kotlinx.android.synthetic.main.admin_clon_trader_view.view.*
+import kotlinx.android.synthetic.main.fragment_clon_trader.view.*
 
 
 class ClonTraderFragment : Fragment() {

@@ -5,7 +5,12 @@
     <item
         android:id="@+id/action_add_trader"
         android:orderInCategory="100"
-        android:title="@string/action_donate"
+        android:title="@string/action_add_trader"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_view_trader"
+        android:orderInCategory="100"
+        android:title="@string/action_add_trader"
         app:showAsAction="never" />
     <item
         android:id="@+id/action_view_trader"

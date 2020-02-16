@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ie.wit.markit.ui.ClonMarket.Admin.activities.AdminAddTrader">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <EditText
+            android:id="@+id/traderTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="@string/hint_Title"
+            android:inputType="text"
+            android:maxLength="25"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/traderDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="@string/hint_Description"
+            android:maxLength="25"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/traderEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="@string/hint_Title"
+            android:inputType="text"
+            android:maxLength="25"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/traderNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="@string/hint_Description"
+            android:inputType="number"
+            android:maxLength="25"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="14sp" />
+
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@color/colorAccent"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:stateListAnimator="@null"
+            android:text="@string/button_add"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

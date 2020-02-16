@@ -11,7 +11,6 @@
         android:layout_height="match_parent"
         android:layout_marginBottom="150dp"
         android:orientation="vertical"
-        app:layout_constraintBottom_toTopOf="@+id/produceType"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -85,44 +84,4 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.948" />
 
-<!--    <RadioGroup-->
-<!--        android:id="@+id/produceType"-->
-<!--        android:layout_width="181dp"-->
-<!--        android:layout_height="128dp"-->
-<!--        android:layout_alignParentStart="true"-->
-<!--        android:layout_marginStart="8dp"-->
-<!--        android:layout_marginTop="8dp"-->
-<!--        android:layout_marginEnd="8dp"-->
-<!--        android:layout_marginBottom="8dp"-->
-<!--        android:layout_toStartOf="@+id/amountPicker"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintHorizontal_bias="0.042"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintVertical_bias="0.276">-->
-
-<!--        <RadioButton-->
-<!--            android:id="@+id/PayPal"-->
-<!--            android:layout_width="97dp"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:checked="true"-->
-<!--            android:text="@string/vegetables" />-->
-
-<!--        <RadioButton-->
-<!--            android:id="@+id/Direct"-->
-<!--            android:layout_width="97dp"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:checked="false"-->
-<!--            android:text="@string/meats" />-->
-
-<!--        <TextView-->
-<!--            android:id="@+id/name"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_marginStart="8dp"-->
-<!--            android:layout_marginTop="8dp"-->
-<!--            android:layout_marginEnd="8dp"-->
-<!--            android:layout_marginBottom="8dp"-->
-<!--            android:text="@string/name"-->
-<!--            android:textAppearance="@android:style/TextAppearance.Material.Medium" />-->
 </androidx.constraintlayout.widget.ConstraintLayout>

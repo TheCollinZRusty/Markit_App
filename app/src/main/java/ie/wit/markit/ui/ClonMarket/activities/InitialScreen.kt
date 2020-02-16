@@ -9,7 +9,6 @@ import kotlinx.android.synthetic.main.activity_initial_screen.*
 
 class InitialScreen : AppCompatActivity() {
 
-//    private lateinit var appBarConfiguration: AppBarConfiguration
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

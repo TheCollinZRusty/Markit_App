@@ -4,19 +4,14 @@
     tools:showIn="navigation_view">
 
     <group android:checkableBehavior="single">
-<!--        <item-->
-<!--            android:id="@+id/nav_clon_add_trader"-->
-<!--            android:title="Trader" />-->
-        <item
-            android:id="@+id/nav_clon_trader"
-            android:title="@string/menu_report" />
-        <item
-            android:id="@+id/nav_Location"
-            android:title="@string/menu_Location" />
         <item
             android:id="@+id/nav_clon_about_us"
             android:title="@string/menu_AboutUs" />
-
+        <item
+            android:id="@+id/nav_clon_trader"
+            android:title="@string/menu_view_trader" />
+        <item
+            android:id="@+id/nav_Location"
+            android:title="@string/menu_Location" />
     </group>
-
 </menu>

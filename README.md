@@ -1,7 +1,6 @@
 # Markit App
 
 This is a app that is designed to help Farmers markets introduce IT systems to there organizations.
-It would allow traders to 
 
 # Description 
 

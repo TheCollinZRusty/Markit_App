@@ -42,7 +42,7 @@ class AdminAddTrader : AppCompatActivity(), AnkoLogger {
             trader.description = traderDesc.text.toString()
             trader.email = traderEmail.text.toString()
             trader.number = traderNumber.text.toString()
-            if (trader.title.isNotEmpty()) {
+            if (trader.title.isNotEmpty() && trader.description.isNotEmpty() && trader.email.isNotEmpty() && trader.number.isNotEmpty()){
                 if (edit){
                     app.traders.update(trader.copy())
                 }
@@ -54,21 +54,13 @@ class AdminAddTrader : AppCompatActivity(), AnkoLogger {
                 finish()
             }
             else {
-                toast (R.string.message_enter_title)
+                toast (R.string.message_enter_all_fields)
             }
         }
-
-//        chooseImage.setOnClickListener{
-//            showImagePicker(this, IMAGE_REQUEST)
-//        }
-
-        //Add action bar and set title
-//        toolbarAdd.title = title
-//        setSupportActionBar(toolbarAdd)
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        menuInflater.inflate(R.menu.menu_placemark, menu)
+        menuInflater.inflate(R.menu.menu_admin_add, menu)
         return super.onCreateOptionsMenu(menu)    }
 
     override fun onOptionsItemSelected(item: MenuItem?): Boolean {

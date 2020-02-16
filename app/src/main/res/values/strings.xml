@@ -24,14 +24,15 @@
     <string name="menu_Location">Location</string>
     <string name="title_activity_location">Map</string>
 
-    <string name="button_addPlacemark">Add Placemark</string>
-    <string name="button_savePlacemark">Save Placemark</string>
-    <string name="button_addImage"> Add Image </string>
-    <string name="hint_placemarkTitle">Placemark Title</string>
-    <string name="hint_placemarkDescription">Placemark Description</string>
-    <string name="menu_addPlacemark">Add</string>
-    <string name="menu_cancelPlacemark">Cancel</string>
-    <string name="message_enter_title">Please enter a title</string>
-    <string name="select_placemark_image">Select clonTrader image</string>
+    <string name="button_add">Add Trader</string>
+    <string name="button_save">Save Trader</string>
+    <string name="hint_Title">Trader Name</string>
+    <string name="hint_Description">Trader Description</string>
+    <string name="hint_Email">Trader Email</string>
+    <string name="hint_Phone">Trader Phone Number</string>
+    <string name="menu_add">Add</string>
+    <string name="menu_cancel">Cancel</string>
+    <string name="message_enter_all_fields">Please enter all required fields!</string>
+    <string name="admin_add_input">Enter trader details</string>
 
 </resources>

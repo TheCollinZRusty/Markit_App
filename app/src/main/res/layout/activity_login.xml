@@ -16,11 +16,11 @@
         android:layout_height="150dp"/>
 
         <EditText
+            android:id="@+id/EmailLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:padding="15dp"
-
             android:drawablePadding="10dp"
             android:hint="Email"
             android:textColor="@color/white"
@@ -28,11 +28,11 @@
             android:textColorHighlight="@color/white"/>
 
         <EditText
+            android:id="@+id/PasswordLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:padding="15dp"
-
             android:drawablePadding="10dp"
             android:hint="Password"
             android:textColor="@color/white"
@@ -70,28 +70,30 @@
 
         </LinearLayout>
 
-        <Button
-            android:id="@+id/loginButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Log In"
-            android:shadowColor="@android:color/transparent"
-            android:padding="15dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginBottom="10dp"
-            android:layout_marginTop="0dp"/>
+    <Button
+        android:id="@+id/loginButton"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="15dp"
+        android:shadowColor="@android:color/transparent"
+        android:text="Log In" />
 
-        <Button
-            android:id="@+id/SignUpButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Sign Up"
-            android:shadowColor="@android:color/transparent"
-            android:padding="15dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginBottom="10dp"
-            android:layout_marginTop="0dp"
-            android:textColor="@color/white"/>
+    <Button
+        android:id="@+id/SignUpButton"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="15dp"
+        android:shadowColor="@android:color/transparent"
+        android:text="Sign Up"
+        android:textColor="@color/white" />
     </LinearLayout>

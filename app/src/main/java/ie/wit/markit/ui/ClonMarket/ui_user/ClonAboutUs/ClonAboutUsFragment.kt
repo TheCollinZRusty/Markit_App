@@ -5,7 +5,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import ie.wit.R
+
+
 //import ie.wit.markit.ui.ClonMarket.Main.MainApp
 
 class ClonLocation : Fragment() {
@@ -15,6 +16,7 @@ class ClonLocation : Fragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 //        app = activity?.application as MainApp
+//        (activity as AppCompatActivity).supportActionBar!!.hide()
     }
 
     override fun onCreateView(
@@ -22,8 +24,8 @@ class ClonLocation : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
-        val root = inflater.inflate(R.layout.fragment_market_bio, container, false)
-        activity?.title = getString(R.string.action_donate)
+        val root = inflater.inflate(ie.wit.R.layout.fragment_market_bio, container, false)
+        activity?.title = getString(ie.wit.R.string.action_add_trader)
         return root;
     }
 }

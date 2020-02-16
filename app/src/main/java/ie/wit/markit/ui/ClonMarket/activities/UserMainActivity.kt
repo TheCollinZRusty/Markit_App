@@ -22,8 +22,6 @@ class UserMainActivity : AppCompatActivity() {
         val drawerLayout: DrawerLayout = findViewById(R.id.user_drawer_layout)
         val navView: NavigationView = findViewById(R.id.nav_view)
         val navController = findNavController(R.id.nav_host_fragment)
-        // Passing each menu ID as a set of Ids because each
-        // menu should be considered as top level destinations.
         appBarConfiguration = AppBarConfiguration(
             setOf(
                 R.id.nav_clon_trader, R.id.nav_clon_about_us, R.id.nav_Location
@@ -33,11 +31,7 @@ class UserMainActivity : AppCompatActivity() {
         navView.setupWithNavController(navController)
     }
 
-//    override fun onCreateOptionsMenu(menu: Menu): Boolean {
-//        // Inflate the menu; this adds items to the action bar if it is present.
-//        menuInflater.inflate(R.menu.user_bar, menu)
-//        return true
-//    }
+
 
     override fun onSupportNavigateUp(): Boolean {
         val navController = findNavController(R.id.nav_host_fragment)

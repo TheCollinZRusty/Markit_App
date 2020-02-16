@@ -12,9 +12,9 @@
     <application
         android:name=".markit.ui.ClonMarket.Admin.main.MainApp"
         android:allowBackup="true"
-        android:icon="@mipmap/markit_logo_foreground"
+        android:icon="@drawable/markitlogo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/markit_logo_foreground"
+        android:roundIcon="@drawable/markitlogo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 

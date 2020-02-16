@@ -17,13 +17,11 @@
     <string name="nav_header_subtitle">management@clonmarket.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
-
     <string name="menu_add_trader">Add Trader</string>
     <string name="menu_view_trader">Traders</string>
     <string name="menu_AboutUs">Clonakilty Farmers Market</string>
     <string name="menu_Location">Location</string>
     <string name="title_activity_location">Map</string>
-
     <string name="button_add">Add Trader</string>
     <string name="button_save">Save Trader</string>
     <string name="hint_Title">Trader Name</string>
@@ -34,5 +32,4 @@
     <string name="menu_cancel">Cancel</string>
     <string name="message_enter_all_fields">Please enter all required fields!</string>
     <string name="admin_add_input">Enter trader details</string>
-
 </resources>

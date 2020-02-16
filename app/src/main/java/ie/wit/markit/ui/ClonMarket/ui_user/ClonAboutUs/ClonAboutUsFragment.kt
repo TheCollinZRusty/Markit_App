@@ -6,17 +6,11 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 
-
-//import ie.wit.markit.ui.ClonMarket.Main.MainApp
-
 class ClonLocation : Fragment() {
 
-//    lateinit var app: MainApp
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-//        app = activity?.application as MainApp
-//        (activity as AppCompatActivity).supportActionBar!!.hide()
     }
 
     override fun onCreateView(

@@ -8,7 +8,6 @@ import androidx.fragment.app.Fragment
 import com.google.android.gms.maps.GoogleMap
 import ie.wit.R
 import ie.wit.markit.ui.ClonMarket.Admin.main.MainApp
-import kotlinx.android.synthetic.main.fragment_clon_location.*
 
 class ClonLocation : Fragment() {
 
@@ -18,9 +17,7 @@ class ClonLocation : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
     }
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?

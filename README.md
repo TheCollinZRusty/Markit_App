@@ -3,12 +3,12 @@
 This is a app that is designed to help Farmers markets introduce IT systems to there organizations.
 It would allow traders to 
 
-#Description 
+# Description 
 
 The App is developed using Android Gradle and Kotlin. It a crud App that allows a user to see who is attending a market.
 It also allows a admin user to add traders as required. This will be fleshed out in further iterations. 
 
-#Author 
+# Author 
 
 Owen Collins 20080818 Software Systems Development 3 W1 
 
